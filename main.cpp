@@ -3,7 +3,13 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(600, 600), "res");
+    sf::RenderWindow window(sf::VideoMode(836, 767), "res");
+
+    sf::Texture mapt;
+    mapt.loadFromFile("img/provinces.png");
+
+    sf::Sprite maps;
+    maps.setTexture(mapt);
 
     while (window.isOpen())
     {
@@ -26,6 +32,8 @@ int main()
         }
 
         window.clear(sf::Color::Black);
+
+        window.draw(maps);
 
         window.display();
     }
