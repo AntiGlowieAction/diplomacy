@@ -7,3 +7,7 @@
 
 
 mind games
+
+<p align="center">
+    <img src="img/provinces.png" />
+</p>

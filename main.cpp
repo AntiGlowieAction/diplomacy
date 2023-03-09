@@ -1,8 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 
-int main()
-{
+int main (void) {
     sf::RenderWindow window(sf::VideoMode(836, 767), "res");
 
     sf::Texture mapt;
@@ -11,11 +10,9 @@ int main()
     sf::Sprite maps;
     maps.setTexture(mapt);
 
-    while (window.isOpen())
-    {
+    while (window.isOpen()) {
         sf::Event event;
-        while (window.pollEvent(event))
-        {
+        while (window.pollEvent(event)) {
             // Mouse events
             if (event.type == sf::Event::MouseButtonPressed)
                 continue;
