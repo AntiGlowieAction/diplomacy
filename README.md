@@ -9,5 +9,5 @@
 mind games
 
 <p align="center">
-    <img src="img/provinces.png" />
+    <img src="img/provinces.tga" />
 </p>
