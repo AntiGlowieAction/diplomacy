@@ -9,5 +9,5 @@
 mind games
 
 <p align="center">
-    <img src="img/provinces.tga" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Kissinger_Mao.jpg" />
 </p>
