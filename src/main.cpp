@@ -5,7 +5,7 @@ int main (void) {
     sf::RenderWindow window(sf::VideoMode(836, 767), "res");
 
     sf::Texture mapt;
-    mapt.loadFromFile("img/provinces.png");
+    mapt.loadFromFile("img/map.tga");
 
     sf::Sprite maps;
     maps.setTexture(mapt);
