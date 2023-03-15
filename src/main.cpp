@@ -1,6 +1,8 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 
+#include "../include/game.hpp"
+
 int main (void) {
     sf::RenderWindow window(sf::VideoMode(836, 767), "res");
 
