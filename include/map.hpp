@@ -1,14 +1,20 @@
 #ifndef DIPLOMACY_MAP_HPP
 #define DIPLOMACY_MAP_HPP
 
+#include <SFML/Graphics.hpp>
 #include <SFML/Config.hpp>
+#include <string>
 
 #include "province.hpp"
 
 class Map {
     public:
-    sf::Uint8 *pixels;
-    Province *provinces;
+    Province *provinces = nullptr;
+    sf::Uint8 *pixels = nullptr;
+    size_t height = 0;
+    size_t width = 0;
+
+    bool load (const std::string filename);
 };
 
 #endif

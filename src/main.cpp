@@ -7,7 +7,7 @@ int main (void) {
     sf::RenderWindow window(sf::VideoMode(836, 767), "res");
 
     sf::Texture mapt;
-    mapt.loadFromFile("img/map.tga");
+    mapt.loadFromFile("res/map.tga");
 
     sf::Sprite maps;
     maps.setTexture(mapt);
