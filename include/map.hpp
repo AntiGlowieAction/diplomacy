@@ -15,6 +15,8 @@ class Map {
     size_t width = 0;
 
     bool load (const std::string filename);
+
+    Province province (size_t x, size_t y);
 };
 
 #endif
