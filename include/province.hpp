@@ -1,7 +1,7 @@
 #ifndef DIPLOMACY_PROVINCE_HPP
 #define DIPLOMACY_PROVINCE_HPP
 
-#include <SFML/Config.hpp>
+#include <SFML/Graphics.hpp>
 
 class Province {
     public:
@@ -10,6 +10,9 @@ class Province {
     bool supplyCentre;
     bool occupied;
     bool naval;
+    sf::Texture texture;
+    sf::Vector2u min = { UINT32_MAX, UINT32_MAX };
+    sf::Vector2u max = { 0, 0 };
 };
 
 #endif
