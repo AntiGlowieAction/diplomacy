@@ -9,5 +9,5 @@
 mind games
 
 <p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Kissinger_Mao.jpg" />
+    <img src="https://raw.githubusercontent.com/AntiGlowieAction/.github/main/res/despair_sf.png" />
 </p>
